@@ -1,0 +1,24 @@
+name: Compile and Link
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Set up GCC
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'  # Esto solo es necesario para ajustar las versiones de Python
+          architecture: 'x64'
+
+      - name: Compile and Link
+        run: |
+          g++ -o pruebaRadio main.cpp
