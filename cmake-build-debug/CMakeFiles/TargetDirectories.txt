@@ -1,0 +1,3 @@
+C:/Users/User/OneDrive/Escritorio/Odissey-Radio/cmake-build-debug/CMakeFiles/Odissey_Radio.dir
+C:/Users/User/OneDrive/Escritorio/Odissey-Radio/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/User/OneDrive/Escritorio/Odissey-Radio/cmake-build-debug/CMakeFiles/rebuild_cache.dir
